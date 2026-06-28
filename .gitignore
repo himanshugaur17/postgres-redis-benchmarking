@@ -1,0 +1,25 @@
+# Maven build output
+target/
+**/target/
+
+# Compiled Java artifacts
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# Logs and runtime dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Environment/local config
+.env
+.env.*
+!.env.example
